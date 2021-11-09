@@ -1,0 +1,7 @@
+C:\Users\guleriskenderoglu\source\repos\OopVize\bin\Debug\OopVize.exe.config
+C:\Users\guleriskenderoglu\source\repos\OopVize\bin\Debug\OopVize.exe
+C:\Users\guleriskenderoglu\source\repos\OopVize\bin\Debug\OopVize.pdb
+C:\Users\guleriskenderoglu\source\repos\OopVize\obj\Debug\OopVize.csprojAssemblyReference.cache
+C:\Users\guleriskenderoglu\source\repos\OopVize\obj\Debug\OopVize.csproj.CoreCompileInputs.cache
+C:\Users\guleriskenderoglu\source\repos\OopVize\obj\Debug\OopVize.exe
+C:\Users\guleriskenderoglu\source\repos\OopVize\obj\Debug\OopVize.pdb
