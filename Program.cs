@@ -1,6 +1,4 @@
-﻿//19770300028 - MUSTAFA İSKENDEROĞLU 
-// NESNE YÖNELİMLİ PROGRAMLAMA II VİZE 
-
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,14 +22,14 @@ namespace OopVize
             // ComputerScienseStudent sınıfından nesne oluşturma
 
             ComputerScienceStudent compstudent1 = new ComputerScienceStudent();
-            compstudent1.Name = "Mustafa";
+            compstudent1.Name = "Güler";
             compstudent1.LastName = "İskenderoğlu";
-            compstudent1.Age = 20;
-            compstudent1.Gender = 'E';
+            compstudent1.Age = 23;
+            compstudent1.Gender = 'K';
             compstudent1.City = "Trabzon";
-            compstudent1.University = "Ordu Üniversitesi Ünye Meslek Yüksek Okulu";
-            compstudent1.Departmant = "Bilgisayar Programcılığı";
-            compstudent1.No = 19770300028;
+            compstudent1.University = "KTÜ";
+            compstudent1.Departmant = "Bilgisayar Mühendisliği";
+            compstudent1.No = 348303;
             compstudent1.Computer = 'E';
 
             //ComputerScienseStudent sınıfından fonksiyon çağırma işlemleri
@@ -45,12 +43,12 @@ namespace OopVize
 
             Console.WriteLine("************************************************************************************************************************");
             //aynı sınıftan farklı biçimde başka bir nesne oluşturma
-            ComputerScienceStudent compstudent2 = new ComputerScienceStudent("Mustafa","İskenderoğlu",'E',20,"Ordu Üniversitesi","Bilgisayar Programcılığı 1. Öğretim",19770300028, 'E');
+            ComputerScienceStudent compstudent2 = new ComputerScienceStudent("Mustafa","İskenderoğlu",'E',20,"Ordu Üniversitesi","Bilgisayar Programcılığı 1. Öğretim",11111222222, 'H');
             compstudent2.GetStudent();
             Console.WriteLine("************************************************************************************************************************");
-            compstudent2.LessonRegistration("19770300028", "Mustafa","İskenderoglu", "OOP"); // Derse kayıt olma örneği
+            compstudent2.LessonRegistration("111111111", "Mustafa","İskenderoglu", "OOP"); // Derse kayıt olma örneği
             Console.WriteLine("************************************************************************************************************************");
-            compstudent2.Internship(32); // stakj gün sayısı parametre alır
+            compstudent2.Internship(32); // staj gün sayısı parametre alır
             Console.WriteLine("************************************************************************************************************************");
             compstudent2.Continuity(85);// Ders devam yüzdesini parametre alır
             Console.WriteLine("************************************************************************************************************************");
@@ -65,16 +63,16 @@ namespace OopVize
             //// UniversityStudent sınıfındn nesne oluşturma
             ///
             //UniversityStudent student2 = new UniversityStudent();
-            //student2.Name = "Mustafa";
-            //student2.LastName = "İskenderoğlu";
+            //student2.Name = "Gumiho";
+            //student2.LastName = "Güler";
             //student2.Age = 24;
-            //student2.Gender = 'E';
+            //student2.Gender = 'K';
             //student2.City = "Trabzon";
-            //student2.University = "karadeniz Teknik Üniversitesi";
+            //student2.University = "Karadeniz Teknik Üniversitesi";
             //student2.Departmant = "Bilgisayar Mühendisliği";
             //student2.No = 61616161;
 
-            //student2.LessonRegistration("19770300028", "Mutas", "İskenderoğlu", "Nesne Yönelimli Programlama");
+            //student2.LessonRegistration("123468", "Mutas", "Güler", "Nesne Yönelimli Programlama");
             //student2.JoinClass("Görsel Programlama");
             //student2.Internship(25);
 
@@ -96,10 +94,10 @@ namespace OopVize
             ////Academician sınıfından nesne oluşturma
 
             //Academician academician1 = new Academician();
-            //academician1.Name = "Furkan";
-            //academician1.LastName = "Akın";
-            //academician1.Mail = "furkanakin@odu.edu.tr";
-            //academician1.City = "Ordu";
+            //academician1.Name = "Güler";
+            //academician1.LastName = "Gumiho";
+            //academician1.Mail = "gumiho@ktu.edu.tr";
+            //academician1.City = "Trabzon";
             //academician1.Departmant = "Bilgisayar Bilimi";
 
             //academician1.LessonPresentation("Nesne Yönelimli Programlama II");
